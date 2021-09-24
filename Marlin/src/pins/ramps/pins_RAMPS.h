@@ -86,7 +86,7 @@
     #define X_MIN_PIN                          3
   #endif
   #ifndef X_MAX_PIN
-    #define X_MAX_PIN                          2
+    #define X_MAX_PIN                         -1
   #endif
 #endif
 #ifndef Y_STOP_PIN
@@ -252,7 +252,7 @@
 
 // RAMPS 1.4 DIO 4 on the servos connector
 #ifndef FIL_RUNOUT_PIN
-  #define FIL_RUNOUT_PIN                       4
+  #define FIL_RUNOUT_PIN                       2
 #endif
 
 #ifndef PS_ON_PIN
