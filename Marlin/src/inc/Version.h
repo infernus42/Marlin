@@ -25,7 +25,7 @@
  * Release version. Leave the Marlin version or apply a custom scheme.
  */
 #ifndef SHORT_BUILD_VERSION
-  #define SHORT_BUILD_VERSION "2.0.9.1"
+  #define SHORT_BUILD_VERSION "Katman3Dv1"
 #endif
 
 /**
@@ -97,7 +97,7 @@
    * documentation about a specific Marlin release. Displayed in the Info Menu.
    */
 #ifndef WEBSITE_URL
-  #define WEBSITE_URL "marlinfw.org"
+  #define WEBSITE_URL "katman.com.tr"
 #endif
 
 /**
